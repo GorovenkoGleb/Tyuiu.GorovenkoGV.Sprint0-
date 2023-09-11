@@ -12,17 +12,17 @@ namespace UnitTest2
 		TEST_METHOD(TestMethod1)
 		{
 			// Init
-			ISprint0Task3* service = new Service1();
+			ISprint0Task3* data = new Service1();
 			int a = 3;
 			int b = 4;
-			int c = 5;
+			int c = -7;
 			int d;
 
 			// run
-			d = service->SummV3(a, b, c);
+			d = data->SummV3(a, b, c);
 
 			// Valid
-			Assert::AreEqual(7, c);
+			Assert::AreEqual(0, d);
 		}
 	};
 }

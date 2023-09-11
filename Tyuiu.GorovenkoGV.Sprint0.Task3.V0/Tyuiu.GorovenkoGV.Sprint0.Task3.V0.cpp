@@ -10,7 +10,7 @@ int main()
 	ISprint0Task3* date = new Service1();
 	cout << "VasilichVS\n";
 	cout << "V = a + b + c\n";
-	cout << "Rezult = " << date->SummV3(10, 8, 7);
+	cout << "Rezult = " << date->SummV3(3, 4, -7);
 	cout << endl;
 
 }
