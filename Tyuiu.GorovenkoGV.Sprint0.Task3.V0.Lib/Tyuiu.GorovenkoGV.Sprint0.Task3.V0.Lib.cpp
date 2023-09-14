@@ -6,7 +6,7 @@
 #include "../Tyuiu.Cours.cpp/Tyuiu.Cours.cpp.cpp"
 
 // TODO: Это пример библиотечной функции.
-class Service1:public ISprint0Task3
+class ServiceV1 :public ISprint0Task3
 {
 
 	//Inherited via ISprint0Task3V0

@@ -3,7 +3,7 @@
 
 #include "pch.h"
 #include "framework.h"
-#include "../../Tyuiu.Cours.cpp/Tyuiu.Cours.cpp.cpp"
+#include "../Tyuiu.Cours.cpp/Tyuiu.Cours.cpp.cpp"
 
 
 // TODO: Это пример библиотечной функции.

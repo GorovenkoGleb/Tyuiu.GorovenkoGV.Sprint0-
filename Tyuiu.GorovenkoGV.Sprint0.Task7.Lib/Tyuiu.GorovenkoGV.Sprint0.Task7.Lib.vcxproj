@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{71667551-dc89-4e91-b409-ec47ae10cc12}</ProjectGuid>
-    <RootNamespace>TyuiuCourscpp</RootNamespace>
+    <ProjectGuid>{71259db3-d1d1-4ec8-8978-928a246c4f3d}</ProjectGuid>
+    <RootNamespace>TyuiuGorovenkoGVSprint0Task7Lib</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -156,12 +156,20 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
-      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
-    <ClCompile Include="Tyuiu.Cours.cpp.cpp" />
+    <ClCompile Include="Tyuiu.GorovenkoGV.Sprint0.Task7.Lib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tyuiu.GorovenkoGV.Sprint0.Task7.TestV4\Tyuiu.GorovenkoGV.Sprint0.Task7.TestV4.vcxproj">
+      <Project>{18ee4aa9-2154-4fc3-a1c3-ac402e2dc608}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\Tyuiu.GorovenkoGV.Sprint0.Task7.TestV5\Tyuiu.GorovenkoGV.Sprint0.Task7.TestV5.vcxproj">
+      <Project>{36590486-f9dd-4e46-9f62-08454fda36cc}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

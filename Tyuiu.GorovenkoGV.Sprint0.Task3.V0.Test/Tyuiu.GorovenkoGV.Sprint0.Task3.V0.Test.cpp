@@ -12,7 +12,7 @@ namespace UnitTest2
 		TEST_METHOD(TestMethod1)
 		{
 			// Init
-			ISprint0Task3* data = new Service1();
+			ISprint0Task3* data = new ServiceV1();
 			int a = 3;
 			int b = 4;
 			int c = -7;
