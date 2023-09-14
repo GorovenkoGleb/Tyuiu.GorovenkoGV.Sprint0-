@@ -7,7 +7,7 @@
 
 
 // TODO: Это пример библиотечной функции.
-class Service :public ISprint0Task2V0
+class ServiceV0 :public ISprint0Task2V0
 {
 
 	// Inherited via ISprint0Task2V0
@@ -15,6 +15,23 @@ class Service :public ISprint0Task2V0
 	{
 		return a + b; //решение
 	}
+
+
+
+	// Inherited via ISprint0Task2V1
+
+	//virtual
+
+};
+class ServiceV1 :public ISprint0Task2V1
+{
+
+	// Inherited via ISprint0Task2V0
+	virtual int Summ(float a, int b, int c) override
+	{
+		return a + b + c; //решение
+	}
+
 
 
 	// Inherited via ISprint0Task2V1

@@ -95,6 +95,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tyuiu.GorovenkoGV.Sprint0.T
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tyuiu.GorovenkoGV.Sprint0.Task7V5", "Tyuiu.GorovenkoGV.Sprint0.Task7V5\Tyuiu.GorovenkoGV.Sprint0.Task7V5.vcxproj", "{5112C45F-36CF-4534-A7DE-192615D402B1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tyuiu.GorovenkoGV.Sprint0.Task2.TestV1", "Tyuiu.GorovenkoGV.Sprint0.Task2.TestV2\Tyuiu.GorovenkoGV.Sprint0.Task2.TestV2.vcxproj", "{56E06242-BD8B-479E-B971-753F18F5455E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -415,6 +417,14 @@ Global
 		{5112C45F-36CF-4534-A7DE-192615D402B1}.Release|x64.Build.0 = Release|x64
 		{5112C45F-36CF-4534-A7DE-192615D402B1}.Release|x86.ActiveCfg = Release|Win32
 		{5112C45F-36CF-4534-A7DE-192615D402B1}.Release|x86.Build.0 = Release|Win32
+		{56E06242-BD8B-479E-B971-753F18F5455E}.Debug|x64.ActiveCfg = Debug|x64
+		{56E06242-BD8B-479E-B971-753F18F5455E}.Debug|x64.Build.0 = Debug|x64
+		{56E06242-BD8B-479E-B971-753F18F5455E}.Debug|x86.ActiveCfg = Debug|Win32
+		{56E06242-BD8B-479E-B971-753F18F5455E}.Debug|x86.Build.0 = Debug|Win32
+		{56E06242-BD8B-479E-B971-753F18F5455E}.Release|x64.ActiveCfg = Release|x64
+		{56E06242-BD8B-479E-B971-753F18F5455E}.Release|x64.Build.0 = Release|x64
+		{56E06242-BD8B-479E-B971-753F18F5455E}.Release|x86.ActiveCfg = Release|Win32
+		{56E06242-BD8B-479E-B971-753F18F5455E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -2,10 +2,31 @@
 //
 
 #include <iostream>
-
+#include "../Tyuiu.GorovenkoGV.Sprint0.Task2.V0.Lib/Tyuiu.GorovenkoGV.Sprint0.Task2.V0.Lib.cpp"
+using namespace std;
 int main()
 {
-    std::cout << "Hello World!\n";
+	ISprint0Task2V0* serviceV0 = new ServiceV0();
+	setlocale(LC_ALL, "Russian");
+	cout << "Горовенко\t" << "Глеб\t" << "Васильевич\n";
+	cout << endl;
+	cout << "Task2.V0\n";
+	cout << "Summ = a + b\n";
+	cout << "Rezult = " << serviceV0->Add(3, 4);
+	cout << endl;
+
+	cout << endl;
+	cout << endl;
+
+	ISprint0Task2V1* serviceV1 = new ServiceV1();
+	setlocale(LC_ALL, "Russian");
+	cout << "Горовенко\t" << "Глеб\t" << "Васильевич\n";
+	cout << endl;
+	cout << "Task2.V1\n";
+	cout << "Summ = a + b + c\n";
+	cout << "Rezult = " << serviceV1->Summ(6.5, 4, 7);
+	cout << endl;
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

@@ -3,25 +3,26 @@
 #include "../Tyuiu.GorovenkoGV.Sprint0.Task2.V0.Lib/Tyuiu.GorovenkoGV.Sprint0.Task2.V0.Lib.cpp"
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
-namespace UnitTest1
+namespace UnitTest2
 {
-	TEST_CLASS(UnitTest1)
+	TEST_CLASS(UnitTest2)
 	{
 	public:
 
-		TEST_METHOD(TestMethod1)
+		TEST_METHOD(TestMethod2)
 		{
 			// Init
-			ISprint0Task2V0* serviceV0 = new ServiceV0();
-			int a = 3;
+			ISprint0Task2V1* serviceV1 = new ServiceV1();
+			int a = 6.5;
 			int b = 4;
-			int c;
+			int c = 7;
+			int d;
 
 			// run
-			c = serviceV0->Add(a, b);
+			d = serviceV1->Summ(a, b, c);
 
 			// Valid
-			Assert::AreEqual(7, c);
+			Assert::AreEqual(17, d);
 		}
 	};
 }
